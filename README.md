@@ -74,6 +74,12 @@ $better-prompt 只输出优化版，保留“只改文案、不调整布局”�
 
 简单任务只做必要增强，不要求每次用满四个维度。
 
+## 灵感来源与致谢
+
+本项目受到 Gary Chen 在 YouTube 发布的视频 [《想把 AI 用得好，你得再瘋一點》](https://www.youtube.com/watch?v=MzklWMQ87Yw) 启发。感谢作者分享 AI 使用与提示词改进的思路。
+
+本仓库将相关思路整理为 Codex 项目级技能，形成双版本输出、约束保留与验收要求等可复用的工作流程。
+
 ## 使用边界
 
 - 技能仅在包含它的项目目录及其子目录使用，不安装到用户级或系统级技能目录。
@@ -86,6 +92,7 @@ $better-prompt 只输出优化版，保留“只改文案、不调整布局”�
 
 ```text
 better-prompt/
+├── LICENSE
 ├── README.md
 └── .agents/
     └── skills/
@@ -97,3 +104,9 @@ better-prompt/
 
 - [SKILL.md](.agents/skills/better-prompt/SKILL.md)：完整的技能规则、流程与示例。
 - [openai.yaml](.agents/skills/better-prompt/agents/openai.yaml)：技能展示名称和简介。
+
+## 许可证
+
+本仓库的原创内容采用 [MIT 许可证](LICENSE)，允许使用、复制、修改、分发和商用，使用时须遵守许可证中的版权与许可声明保留要求。
+
+上述视频及其原始字幕的权利与使用条件由原权利人及其授权决定，不在本仓库的 MIT 授权范围内。
