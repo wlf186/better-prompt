@@ -1,0 +1,3 @@
+interface:
+  display_name: "Prompt 双版本优化"
+  short_description: "从速度、高度、深度与广度生成保留原目标的优化版和更有野心的升级版提示词"
